@@ -136,3 +136,45 @@
 .nav-link-footer:hover {
     color: bisque;
 }
+
+
+/* Goods */
+
+.h1-header {
+    text-align: center;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link-goods {
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    margin: 10px;
+}
+
+.nav-link-goods:hover {
+    color: rgb(63, 60, 60);
+}
+
+.goods {
+    display: flex;
+    justify-content: center;
+}
+
+.card-product {
+    margin: 20px;
+}
+
+.image {
+    width: 250px;
+    height: 300px;
+}
+
+.nav-link-header {
+    text-decoration: none;
+    color: black;
+}
