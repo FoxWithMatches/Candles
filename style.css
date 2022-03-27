@@ -24,7 +24,7 @@
 }
 
 .nav-link:hover {
-    color: rgb(93, 91, 91);
+    color: #5d5b5b;
     transition: 0.2s;
 }
 
@@ -172,6 +172,13 @@
 .image {
     width: 250px;
     height: 300px;
+
+    filter: grayscale(100%);
+    transition: filter 0.5s;
+}
+
+.image:hover {
+    filter:grayscale(0);
 }
 
 .nav-link-header {
