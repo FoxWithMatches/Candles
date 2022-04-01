@@ -253,3 +253,23 @@
     border-top: 1px solid #000;
 }
 
+/* Contacts */
+
+.position-contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.position-border {
+    border-top: 1px solid #000;
+}
+
+.position-text-contacts {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contacts-icon {
+    width: 100px;
+    margin: 40px;
+}
