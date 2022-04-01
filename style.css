@@ -273,3 +273,29 @@
     width: 100px;
     margin: 40px;
 }
+
+/* Favorites*/
+
+.favorites {
+    width: 100%;
+    padding: 20px;
+}
+
+.border-table {
+    border-bottom: 1px solid #000;
+    padding-bottom: 30px;
+}
+
+.btn-order {
+    display: block;
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    background-color: #748D75;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.btn-order:hover {
+    cursor: pointer;
+}
