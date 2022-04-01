@@ -5,9 +5,10 @@
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Товары из гипса</title>
+    <title>Мой профиль</title>
 </head>
 <body>
+
     <div class="page">
         <header>
             <div class="header">
@@ -28,8 +29,7 @@
             </div>
         </header>
 
-        <main>
-            <h1 class="h1-header">Товары</h1>
+        <main>  
             <nav class="nav-header">
                 <a class="nav-link-goods" href="goods.html">Фигурные свечи</a>
                 <a class="nav-link-goods" href="candleInAGlass.html">Свечи в стаканах</a>
@@ -37,11 +37,39 @@
                 <a class="nav-link-goods" href="soap.html">Мыло</a>
                 <a class="nav-link-goods" href="gypsum.html">Гипс</a>
             </nav>
+                <h1 class="h1-header">Профиль</h1>
+            <div class="register">
+                <form class="form-register" action="/" method="post">
+                    <label class="label" for="name">Имя</label>
+                    <input class="form-input" type="text" name="name">
 
-            <div class="new-goods">
-                <p>Товар скоро появится в продаже. Спасибо за проявленный интерес</p>
-                <img class="image" src="/img/gypsum.jpg" alt="roses">
-        </div>
+                    <label class="label" for="surname">Фамилия</label>
+                    <input class="form-input" type="text" name="surname">
+
+                    <label class="label" for="country">Страна</label>
+                    <select class="form-input" name="country">
+                        <option value="">Россия</option>
+                    </select>
+
+                    <label class="label" for="city">Город</label>
+                    <input class="form-input" type="text" name="city">
+
+                    <label class="label" for="street">Адрес</label>
+                    <input class="form-input" type="text" name="street">
+
+                    <label class="label" for="index">Индекс</label>
+                    <input class="form-input" type="text" name="index">
+
+                    <label class="label" for="tel">Телефон</label>
+                    <input class="form-input" type="tel" name="tel">
+
+                    <label class="label" for="email">Email</label>
+                    <input class="form-input" type="email" name="email">
+                    
+                    <button class="btn" type="button">Сохранить</button>
+                </form>
+            </div>
+        </main>
 
         <footer class="decoration-footer">
             <p class="text-brand">nõtem — семейный бренд экологичных свечей и домашнего декора собственного производства в Нижнем Новгороде</p>
@@ -73,7 +101,7 @@
             </div>
         </footer>
 
-    </div> 
-        
+    </div>
+    
 </body>
 </html>
