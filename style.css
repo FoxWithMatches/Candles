@@ -247,3 +247,9 @@
     cursor: pointer;
 }
 
+/* delivery */
+
+.delivery-border {
+    border-top: 1px solid #000;
+}
+
