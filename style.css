@@ -283,7 +283,7 @@
 
 .border-table {
     border-bottom: 1px solid #000;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .btn-order {
@@ -298,4 +298,10 @@
 
 .btn-order:hover {
     cursor: pointer;
+}
+
+/* Basket */
+
+.btn-basket {
+    text-align: end;
 }
