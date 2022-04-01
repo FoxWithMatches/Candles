@@ -8,19 +8,31 @@
 
 /* Header */
 
+.logo {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
 .header {
     display: flex;
+    justify-content: space-between;
     height: 60px;
-    background-color: #c5c2c2c8;
-    justify-content: flex-end;
-    align-items: center;
+}
 
+.icons-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link-icon {
+    width: 30px;
+    height: 30px;
 }
 
 .nav-link {
-    padding: 20px;
     text-decoration: none;
-    color: black;
 }
 
 .nav-link:hover {
@@ -30,10 +42,15 @@
 
 /* Main */
 
+.h1-nav-link {
+    text-decoration: none;
+    color: #111;
+}
+
 .h1-main {
     position: absolute;
     right: 20px;
-    top: 100px;
+    top: 250px;
 
     width: 600px;
     text-align: end;
@@ -44,7 +61,7 @@
 .main-text {
     position: absolute;
     right: 20px;
-    top: 500px;
+    top: 650px;
 
     width: 350px;
     text-align: end;
@@ -104,9 +121,9 @@
 /* Footer */
 
 .decoration-footer {
-    background-color: #2F3339;
     padding: 40px;
-    margin-top: 20px;
+    margin-top: 40px;
+    border-top: 1px solid #000;
 }
 
 .footer {
@@ -115,26 +132,26 @@
 }
 
 .text-brand {
-    color: #fff;
+    color: #000;
     font-size: 12px;
 }
 
 .h3-footer {
-    color: #fff;
+    color: #000;
 }
 
 .nav-link-footer {
     display: flex;
     flex-direction: column;
     
-    color: #fff;
+    color: #000;
     font-weight: 100;
     line-height: 25px;
     text-decoration: none;
 }
 
 .nav-link-footer:hover {
-    color: bisque;
+    color: #686666;
 }
 
 
@@ -191,3 +208,41 @@
     margin-top: 50px;
 }
 
+/* Register */
+
+.register {
+    border-top: 1px solid #111;
+}
+
+.form-register {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-input,
+.p-register {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.link-politic {
+    text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+.btn {
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #748D75;
+    border-style: none;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}

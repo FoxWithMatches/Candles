@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Товары</title>
+    <title>Регистрация</title>
 </head>
 <body>
     <div class="page">
@@ -28,8 +28,7 @@
             </div>
         </header>
 
-        <main>
-            <h1 class="h1-header">Товары</h1>
+        <main>  
             <nav class="nav-header">
                 <a class="nav-link-goods" href="goods.html">Фигурные свечи</a>
                 <a class="nav-link-goods" href="candleInAGlass.html">Свечи в стаканах</a>
@@ -37,12 +36,16 @@
                 <a class="nav-link-goods" href="soap.html">Мыло</a>
                 <a class="nav-link-goods" href="gypsum.html">Гипс</a>
             </nav>
-
-            <div class="new-goods">
-                <p>Товар скоро появится в продаже. Спасибо за проявленный интерес</p>
-                <img class="image" src="/img/gypsum.jpg" alt="roses">
-        </div>
-
+                <h1 class="h1-header">Мой аккаунт</h1>
+            <div class="register">
+                <form class="form-register" action="/" method="post">
+                    <input class="form-input" type="email" placeholder="email">
+                    <input class="form-input" type="password" placeholder="password">
+                    <p class="p-register">При регистрации вы соглашаетесь со всеми пунктами документа <a class="link-politic" href="#">"Политика конфиденциальности"</a></p>
+                    <button class="btn" type="button">Регистрация</button>
+                </form>
+            </div>
+        </main>
         <footer class="decoration-footer">
             <p class="text-brand">nõtem — семейный бренд экологичных свечей и домашнего декора собственного производства в Нижнем Новгороде</p>
     
@@ -73,7 +76,6 @@
             </div>
         </footer>
 
-    </div> 
-        
+    </div>
 </body>
 </html>
